@@ -68,11 +68,6 @@
         /*
          *  User defined options
          */
-
-         var myCustomFunc = function(col){
-            console.log("This is", this);
-            return m('span', this[col.data]+' --')
-         }
         var options = {
             divID : 'grid',
             filesData : "small.json",
@@ -84,19 +79,11 @@
             useDropzone : true,
             uploadURL : "",
             allowMove : true
-
-
         }
-
-
         /*
          *  User defined code to implement Treebeard anywhere on the page.
          */
         Treebeard.run(options);
-
-
-
-
     </script>
     </body>
 </html>
