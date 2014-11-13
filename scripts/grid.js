@@ -1263,7 +1263,7 @@
         Treebeard.options = $.extend({
             placement : '',
             divID : "myGrid",
-            filesData : "http://localhost:63342/mGrid/demo/small.json",
+            filesData : "small.json",
             rowHeight : undefined,         // user can override or get from .tb-row height
             showTotal : 15,         // Actually this is calculated with div height, not needed. NEEDS CHECKING
             paginate : false,       // Whether the applet starts with pagination or not.

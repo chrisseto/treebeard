@@ -75,7 +75,7 @@
          }
         var options = {
             divID : 'grid',
-            filesData : "http://localhost:8080/demo/small.json",
+            filesData : "small.json",
             rowHeight : 35,
             showTotal : 15,
             paginate : false,
